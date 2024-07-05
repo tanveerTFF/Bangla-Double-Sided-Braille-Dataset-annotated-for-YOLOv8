@@ -1,0 +1,14 @@
+path: '/content/gdrive/MyDrive/bookpart1dataset'
+train: train/images
+val: test/images
+
+
+nc: 30
+names: ['a', 'aw', 'b', 'bh', 'ch', 'chh', 'd', 'dd', 'dh', 'e', 'g', 'h', 'i', 'j', 'k', 'kh', 'kkh', 'l', 'm', 'n', 'o', 'p', 'ph', 'r', 's', 'sh', 't', 'th', 'u', 'y']
+
+roboflow:
+  workspace: brailledata
+  project: braillebook1
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/brailledata/braillebook1/dataset/1
